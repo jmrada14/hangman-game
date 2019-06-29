@@ -10,10 +10,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     }
 .title {
-    color: #2799FF;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    outline: 0;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 12px 34px;
+    font-size: 28px;
+    line-height: 30px;
+  text-decoration: none;
+  color: #fff;
+  background: rgb(126, 128, 238);
   }
   .category {
-    color: #2799FF;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 30px;
+    background: #004D92;
   }
   
   .wrap {
@@ -24,21 +37,38 @@ body {
     position: relative;
   }
   .label {
-    color: #004D92;
+    color: orchid;
   }
   #hiddenWord {
     letter-spacing: 10px;
-    color: #00FF9F;
+    color: rgb(8, 143, 91);
     font-weight: bold;
+    font-size: 52px;
     
   }
   #guessedWords {
     letter-spacing: 5px;
-    color: #00FF9F;
+    color:rgb(8, 143, 91);
+    font-size: 18px;
   }
   .lives {
     color:#00FF9F;
   }
   #newGame {
     color: #2799FF;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(60, 78, 99);
+    color: white;
+    text-align: center;
+  }
+
+  #fuckcopyright{
+    text-align: center;
+    color:white;
   }
