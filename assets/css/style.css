@@ -27,3 +27,23 @@ body {
     position: relative;
 
 }
+.label {
+    color: pink;
+}
+#wordHidden {
+    letter-spacing: 8px;
+    color: green;
+    font-weight: bold;
+}
+
+.guessedWords {
+    letter-spacing: 5px;
+    color: blue;
+}
+.lives {
+    color: orange;
+}
+
+#newGame {
+    color: orchid;
+}
